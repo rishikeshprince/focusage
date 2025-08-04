@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focusage - Master Your Time, Achieve Your Goals</title>
+    <meta name="description" content="Focusage is a powerful productivity app that combines task management, Pomodoro technique, and habit tracking to help you stay focused and achieve your goals.">
+    <meta name="keywords" content="productivity, task management, pomodoro, focus, time management, habit tracking, mobile app">
+    <meta name="author" content="Focusage Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://focusage.app/">
+    <meta property="og:title" content="Focusage - Master Your Time, Achieve Your Goals">
+    <meta property="og:description" content="Focusage is a powerful productivity app that combines task management, Pomodoro technique, and habit tracking to help you stay focused and achieve your goals.">
+    <meta property="og:image" content="https://focusage.app/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://focusage.app/">
+    <meta property="twitter:title" content="Focusage - Master Your Time, Achieve Your Goals">
+    <meta property="twitter:description" content="Focusage is a powerful productivity app that combines task management, Pomodoro technique, and habit tracking to help you stay focused and achieve your goals.">
+    <meta property="twitter:image" content="https://focusage.app/twitter-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-brain"></i>
+                <span>Focusage</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Master Your Time, 
+                    <span class="gradient-text">Achieve Your Goals</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Focusage combines powerful task management, Pomodoro technique, and habit tracking to help you stay focused, productive, and motivated every day.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fab fa-google-play"></i>
+                        Download Now
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.8★</span>
+                        <span class="stat-label">App Rating</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1M+</span>
+                        <span class="stat-label">Tasks Completed</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-interface">
+                            <div class="app-header">
+                                <div class="app-title">Focusage</div>
+                                <div class="app-time">14:25</div>
+                            </div>
+                            <div class="app-content">
+                                <div class="task-item completed">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Complete project proposal</span>
+                                </div>
+                                <div class="task-item active">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Review code changes</span>
+                                </div>
+                                <div class="task-item">
+                                    <i class="far fa-circle"></i>
+                                    <span>Team meeting at 3 PM</span>
+                                </div>
+                            </div>
+                            <div class="pomodoro-timer">
+                                <div class="timer-circle">
+                                    <span class="timer-text">25:00</span>
+                                </div>
+                                <div class="timer-controls">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Focusage?</h2>
+                <p>Everything you need to boost your productivity and achieve your goals</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Smart Task Management</h3>
+                    <p>Organize tasks with tags, priorities, and due dates. Set recurring tasks and never miss important deadlines.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Pomodoro Technique</h3>
+                    <p>Stay focused with customizable Pomodoro sessions. Track your focus time and build better work habits.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Progress Analytics</h3>
+                    <p>Visualize your productivity with detailed statistics and insights about your work patterns.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Reward System</h3>
+                    <p>Earn points for completing tasks and focus sessions. Stay motivated with our gamified experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Smart Notifications</h3>
+                    <p>Get personalized notifications for task reminders, session completions, and motivational messages.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Beautiful Design</h3>
+                    <p>Enjoy a clean, modern interface with dark/light themes and customizable color schemes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How Focusage Works</h2>
+                <p>Get started in minutes and transform your productivity</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Create Your Tasks</h3>
+                        <p>Add tasks with descriptions, due dates, and tags. Set priorities and recurring schedules.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Start Focus Sessions</h3>
+                        <p>Use the Pomodoro timer to work in focused 25-minute sessions with short breaks.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Track Progress</h3>
+                        <p>Monitor your productivity with detailed statistics and earn points for achievements.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Achieve Your Goals</h3>
+                        <p>Build better habits, stay motivated, and accomplish more with Focusage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Ready to Transform Your Productivity?</h2>
+                <p>Join thousands of users who have already improved their focus and achieved their goals with Focusage.</p>
+                <div class="download-buttons">
+                    <a href="#" class="download-btn">
+                        <i class="fab fa-google-play"></i>
+                        <div class="download-text">
+                            <span class="download-label">Get it on</span>
+                            <span class="download-store">Google Play</span>
+                        </div>
+                    </a>
+                    <a href="#" class="download-btn">
+                        <i class="fab fa-apple"></i>
+                        <div class="download-text">
+                            <span class="download-label">Download on the</span>
+                            <span class="download-store">App Store</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="download-features">
+                    <div class="download-feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>100% Free</span>
+                    </div>
+                    <div class="download-feature">
+                        <i class="fas fa-download"></i>
+                        <span>No Registration</span>
+                    </div>
+                    <div class="download-feature">
+                        <i class="fas fa-sync"></i>
+                        <span>Auto Sync</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Have questions or suggestions? We'd love to hear from you!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>support@focusage.app</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-twitter"></i>
+                        <div>
+                            <h4>Twitter</h4>
+                            <p>@focusage_app</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/focusage</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-brain"></i>
+                        <span>Focusage</span>
+                    </div>
+                    <p>Master your time, achieve your goals with our powerful productivity app.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Updates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Focusage. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Focusage",
+      "description": "A powerful productivity app that combines task management, Pomodoro technique, and habit tracking to help you stay focused and achieve your goals.",
+      "operatingSystem": "Android, iOS",
+      "applicationCategory": "ProductivityApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1250"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Focusage Team"
+      }
+    }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html> 
